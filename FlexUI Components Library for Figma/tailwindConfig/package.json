@@ -1,0 +1,15 @@
+{
+  "name": "tailwindconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "tailwindcss -i ../assets/css/tailwindcss-input.css -o ../assets/css/tailwindcss-style.css",
+    "tw-watch": "tailwindcss -i ../assets/css/tailwindcss-input.css -o ../assets/css/tailwindcss-style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
