@@ -1,3 +1,3 @@
 ## Header List
 
-![](../../assets/images/header-one.svg)
+![](https://github.com/tailwind-parsi/components/FlexUI%20Components%20Library%20for%20Figma/assets/images/header-one.svg)
