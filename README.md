@@ -21,5 +21,5 @@ We have made more than 700 ready-made parts of the Flex UI library in the form o
 
 - [Figma file](https://www.figma.com/file/y5DNSap2srUYF0jsYcWlWe/Flex-UI-library-for-Tailwind-CSS-(Community))
 - [Use icon (heroicons)](https://heroicons.com/)
-- [Group telegram for Ask & Questions](https://t.me/tailwindparsi)
+- [Group telegram for Ask & Questions](https://t.me/easymicroservice/856)
 ---
