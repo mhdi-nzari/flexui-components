@@ -17,9 +17,19 @@ We have made more than 700 ready-made parts of the Flex UI library in the form o
 
 ما بیش از 700 قسمت آماده از کتابخانه Flex UI را به صورت کامپوننت برای فریم ورک Tailwind ساخته ایم و به صورت رایگان به زبان فارسی و راست چین شده در اختیار شما قرار می دهیم.
 
+---
+
+### Component List
+
+- navigations ( [Html](https://github.com/tailwind-parsi/flexui-components/tree/main/html-css/src/navigations) ) ( [React](https://github.com/tailwind-parsi/flexui-components/tree/main/react/src/components/Navigations) ) ( Vue ... ) ( Angular ... )
+- ... 
+  
+
+
+---
+
 ### Documents
 
 - [Figma file](https://www.figma.com/file/y5DNSap2srUYF0jsYcWlWe/Flex-UI-library-for-Tailwind-CSS-(Community))
 - [Use icon (heroicons)](https://heroicons.com/)
 - [Group telegram for Ask & Questions](https://t.me/easymicroservice/856)
----
