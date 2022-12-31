@@ -2,8 +2,14 @@
 
 ![](cover.png)
 
-![stars](https://img.shields.io/github/stars/tailwind-parsi/flexui-components?logo=github&logoColor=white&style=flat)
-![fork](https://img.shields.io/github/forks/tailwind-parsi/flexui-components?logo=GitHubActions&logoColor=white&style=flat)
+![followers](https://img.shields.io/github/followers/tailwind-parsi?color=green&style=flat)
+![stars](https://img.shields.io/github/stars/tailwind-parsi/flexui-components?color=gold&style=flat)
+![fork](https://img.shields.io/github/forks/tailwind-parsi/flexui-components?color=purple&style=flat)
+![watchers](https://img.shields.io/github/watchers/tailwind-parsi/flexui-components?color=orange&style=flat)
+![watchers](https://img.shields.io/github/languages/count/tailwind-parsi/flexui-components?color=blue&style=flat)
+![watchers](https://img.shields.io/github/languages/top/tailwind-parsi/flexui-components?color=blue&style=flat)
+
+
 
 
 </div>
@@ -21,11 +27,13 @@ We have made more than 700 ready-made parts of the Flex UI library in the form o
 
 ### Component List
 
-- navigations ( [Html](https://github.com/tailwind-parsi/flexui-components/tree/main/html-css/src/navigations) ) ( [React](https://github.com/tailwind-parsi/flexui-components/tree/main/react/src/components/Navigations) ) ( Vue ... ) ( Angular ... )
-- ... 
+<br>
+
+- ![](https://img.shields.io/badge/Components-Navigations-orange)
+  [![](https://img.shields.io/github/directory-file-count/tailwind-parsi/flexui-components/html-css/src/navigations?color=E34F26&style=flat&label=HTML5&logo=HTML5&logoColor=white)](https://github.com/tailwind-parsi/flexui-components/tree/main/html-css/src/navigations)
+  [![](https://img.shields.io/github/directory-file-count/tailwind-parsi/flexui-components/react/src/components/Navigations?color=61DAFB&style=flat&label=React&logo=React&logoColor=white)](https://github.com/tailwind-parsi/flexui-components/tree/main/react/src/components/Navigations)
+
   
-
-
 ---
 
 ### Documents
