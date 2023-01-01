@@ -12,6 +12,8 @@
 <body class="bg-white">
 
     <!-- Header Four  -->
+    
+    <!-- Register Icon Position -->
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0"
         class="absolute hidden invisible">
         <symbol id="search" viewBox="0 0 14 14" fill="none">
@@ -23,8 +25,12 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </symbol>
     </svg>
+
+    <!-- Component Position -->
     <div class="bg-secondary py-4 text-gray-400">
         <div class="container px-2 flex flex-wrap items-center justify-between">
+
+            <!-- NavItem Position -->
             <div class="flex gap-x-3 items-center justify-center">
                 <div class="bg-gray-800 rounded-md p-2">
                     <a href="#">
@@ -34,12 +40,15 @@
                     </a>
                 </div>
             </div>
+
+            <!-- Logo Position -->
             <div class="justify-start">
                 <img src="../../assets/images/Logo-Dark.svg" alt="Logo FlexUI">
             </div>
+
+            <!-- Search Form Position -->
             <div class="hidden md:flex flex-wrap items-center gap-x-3">
-                <form action="" method="GET"
-                    class="flex border rounded-md relative py-1.5 px-2 justify-end w-full max-w-[250px]">
+                <form action="" method="GET" class="flex bg-white border rounded-md relative py-1.5 px-2 justify-end w-full max-w-[250px]">
                     <button class="absolute top-1/2 -translate-y-1/2 right-2">
                         <svg class="w-4 h-4">
                             <use xlink:href="#search"></use>
@@ -49,7 +58,10 @@
                         class="bg-transparent mr-5 w-full focus-visible:outline-none focus:outline-none focus:placeholder:text-transparent text-sm xl:text-base">
                 </form>
             </div>
-            <div class="md:hidden bg-gray-800 rounded-md p-2.5">
+
+            <!-- Active on Mobile-->
+            <!-- Search Icon Position -->
+            <div class="md:hidden bg-gray-800 text-gray-400 rounded-md p-2.5">
                 <a href="#">
                     <svg class="w-5 h-5">
                         <use xlink:href="#search"></use>
