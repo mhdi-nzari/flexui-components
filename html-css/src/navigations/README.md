@@ -45,3 +45,20 @@
 
 - *[view online (Dark)](https://tailwind-parsi.github.io/flexui-components/html-css/src/navigations/header-three-dark.html)*
 ---- 
+
+<br>
+
+### Header Four
+
+<br>
+
+![Header Four Light Theme](../../assets/images/header-four.png)
+
+- *[view online (Light)](https://tailwind-parsi.github.io/flexui-components/html-css/src/navigations/header-four.html)*
+  
+<br>
+
+![Header Four Dark Theme](../../assets/images/header-four-dark.png)
+
+- *[view online (Dark)](https://tailwind-parsi.github.io/flexui-components/html-css/src/navigations/header-four-dark.html)*
+---- 
