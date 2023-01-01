@@ -12,6 +12,8 @@
 <body class="bg-white">
 
     <!-- Header Two  -->
+
+    <!-- Register Icon Position -->
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0"
         class="absolute hidden invisible">
         <symbol id="search" viewBox="0 0 14 14" fill="none">
@@ -23,11 +25,17 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5" />
         </symbol>
     </svg>
-    <div class="bg-gray-900 py-4 text-gray-400">
+
+    <!-- Component Position -->
+    <div class="bg-secondary py-4 text-gray-400">
         <div class="container px-2 flex flex-wrap items-center justify-between">
+
+            <!-- Logo Position -->
             <div class="justify-start md:w-[10%]">
                 <img src="../../assets/images/Logo-Dark.svg" alt="Logo FlexUI">
             </div>
+
+            <!-- NavItem Position -->
             <ul class="hidden md:flex gap-x-4 w-[60%] pr-4 text-sm  xl:text-base">
                 <li>
                     <a href="#" class="hover:text-white hover:font-bold transition-all duration-500 text-white font-bold">محصولات</a>
@@ -45,6 +53,8 @@
                     <a href="#" class="hover:text-white hover:font-bold transition-all duration-500">تماس با ما</a>
                 </li>
             </ul>
+
+            <!-- Search Form Position -->
             <div class="hidden md:flex flex-wrap items-center gap-x-3 w-[30%] justify-end">
                 <form action="" method="GET" class="flex bg-white border rounded-md relative py-1.5 px-2 justify-end w-full max-w-[250px]">
                     <button class="absolute top-1/2 -translate-y-1/2 right-2">
@@ -55,15 +65,21 @@
                     <input type="text" name="s" required placeholder="جستجو" class="bg-transparent mr-5 w-full focus-visible:outline-none focus:outline-none focus:placeholder:text-transparent text-sm xl:text-base">
                 </form>
             </div>
+
+            <!-- Active on Mobile-->
             <div class="flex md:hidden gap-x-3 items-center justify-center">
-                <div class="bg-gray-100 text-gray-800 rounded-md p-2.5">
+
+                <!-- Search Icon Position Mobile -->
+                <div class="bg-gray-800 text-gray-400 rounded-md p-2.5">
                     <a href="#">
                         <svg class="w-5 h-5">
                             <use xlink:href="#search"></use>
                         </svg>
                     </a>
                 </div>
-                <div class="bg-gray-100 text-gray-800 rounded-md p-2">
+
+                <!-- NavItem Position Mobile-->
+                <div class="bg-gray-800 text-gray-400 rounded-md p-2">
                     <a href="#">
                         <svg class="w-6 h-6">
                             <use xlink:href="#bars"></use>
