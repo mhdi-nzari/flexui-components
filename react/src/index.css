@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "iransans";
+  src: local("IRANSansWeb"),
+    url("./fonts/IRANSansWeb.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "iransansbold";
+  src: local("IRANSansWeb_Bold"),
+    url("./fonts/IRANSansWeb_Bold.woff2") format("woff2");
+}
+
+*,
+body,
+html {
+  font-family: iransans;
+}
+
+.font-bold {
+  font-family: iransansbold;
+}

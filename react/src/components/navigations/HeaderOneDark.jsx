@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const HeaderOne = () => {
+const HeaderOneDark = () => {
   const items = [
     {
       id: 1,
@@ -30,11 +30,11 @@ const HeaderOne = () => {
     },
   ]
   return (
-    <div className="bg-white py-4 text-gray-500">
+    <div className="bg-secondary py-4 text-gray-400">
       <div className="container px-2 flex flex-wrap items-center justify-between">
         <div>
           <img
-            src="https://tailwind-parsi.github.io/flexui-components/html-css/assets/images/Logo.svg"
+            src="https://tailwind-parsi.github.io/flexui-components/html-css/assets/images/Logo-Dark.svg"
             alt="logo"
           />
         </div>
@@ -44,14 +44,10 @@ const HeaderOne = () => {
               <NavLink
                 key={item.name}
                 to={item.href}
-                // onClick={handleClick}
-                // className={`hover:text-secondary hover:font-bold transition-all duration-500 ${
-                //   isActive && 'text-secondary font-bold'
-                // }`}
                 className={({ isActive }) => {
                   return (
-                    'hover:text-secondary hover:font-bold transition-all duration-500' +
-                    (isActive ? ' text-secondary font-bold' : '')
+                    'hover:text-white hover:font-bold transition-all duration-500' +
+                    (isActive ? ' text-white font-bold' : '')
                   )
                 }}
               >
@@ -60,7 +56,7 @@ const HeaderOne = () => {
             ))}
         </div>
         <div className="hidden md:flex flex-wrap items-center gap-x-3">
-          <button className="py-1.5 px-4 rounded-md hover:text-secondary hover:font-bold transition-all duration-500">
+          <button className="py-1.5 px-4 rounded-md hover:text-white hover:font-bold transition-all duration-500">
             <a href="#">ورود</a>
           </button>
           <button className="bg-primary text-white hover:bg- py-1.5 px-4 rounded-md">
@@ -68,7 +64,7 @@ const HeaderOne = () => {
           </button>
         </div>
         <div className="flex md:hidden gap-x-3">
-          <div className="bg-gray-100 rounded-md p-1.5 md:hidden ">
+          <div className="bg-gray-100 text-gray-800 rounded-md p-1.5 md:hidden ">
             <a href="#">
               <svg
                 className="w-6 h-6"
@@ -86,7 +82,7 @@ const HeaderOne = () => {
               </svg>
             </a>
           </div>
-          <button className="bg-gray-100 rounded-md p-1.5">
+          <button className="bg-gray-100 text-gray-800 rounded-md p-1.5">
             <a href="#">
               <svg
                 className="w-6 h-6"
@@ -110,4 +106,4 @@ const HeaderOne = () => {
   )
 }
 
-export default HeaderOne
+export default HeaderOneDark
