@@ -23,13 +23,13 @@
 @layer components {
 
     .badge-primary {
-        @apply text-white  text-sm   rounded-full  font-semibold py-1 px-4  bg-green-500
+        @apply 
     }
     .btn-primary {
-        @apply bg-green-500 text-white rounded-[6px]  px-10 py-3 font-normal text-sm px-7 lg:text-lg 
+        @apply 
     }
     .btn-secondary {
-        @apply bg-gray-700  text-white rounded-[6px]  px-5 py-3 font-normal text-sm px-2 lg:text-lg 
+        @apply 
     }
 
 }
