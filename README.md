@@ -29,11 +29,14 @@ We have made more than 700 ready-made parts of the Flex UI library in the form o
 
 <br>
 
-- ![](https://img.shields.io/badge/Components-Navigations-orange)
+ ![](https://img.shields.io/badge/Navigations-orange?color=06B6D4&style=flat&logo=TailwindCss&logoColor=white)
   [![](https://img.shields.io/github/directory-file-count/tailwind-parsi/flexui-components/html-css/src/navigations?color=E34F26&style=flat&label=HTML5&logo=HTML5&logoColor=white)](https://github.com/tailwind-parsi/flexui-components/tree/main/html-css/src/navigations)
   [![](https://img.shields.io/github/directory-file-count/tailwind-parsi/flexui-components/react/src/components/navigations?color=61DAFB&style=flat&label=React&logo=React&logoColor=white)](https://github.com/tailwind-parsi/flexui-components/tree/main/react/src/components/navigations)
 
-  
+ ![](https://img.shields.io/badge/Hero&nbsp;Sections-orange?color=06B6D4&style=flat&logo=TailwindCss&logoColor=white)
+  [![](https://img.shields.io/github/directory-file-count/tailwind-parsi/flexui-components/html-css/src/hero-sections?color=E34F26&style=flat&label=HTML5&logo=HTML5&logoColor=white)](https://github.com/tailwind-parsi/flexui-components/tree/main/html-css/src/navigations)
+  [![](https://img.shields.io/github/directory-file-count/tailwind-parsi/flexui-components/react/src/components/hero-sections?color=61DAFB&style=flat&label=React&logo=React&logoColor=white)](https://github.com/tailwind-parsi/flexui-components/tree/main/react/src/components/navigations)
+
 ---
 
 ### Documents
