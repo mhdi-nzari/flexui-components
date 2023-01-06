@@ -1141,8 +1141,13 @@ video {
     line-height: 1.75rem;
   }
 
+<<<<<<< HEAD
   .lg\:leading-\[4rem\] {
     line-height: 4rem;
+=======
+  .lg\:leading-\[5rem\] {
+    line-height: 5rem;
+>>>>>>> 4cb2cf43c7cfcaa87dec986ca8ce1bce5ab3bb23
   }
 
   .lg\:before\:inline-block::before {

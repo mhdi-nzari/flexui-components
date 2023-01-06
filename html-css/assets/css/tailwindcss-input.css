@@ -20,3 +20,19 @@
     }
 }
 
+<<<<<<< HEAD
+=======
+@layer components {
+
+    .badge-primary {
+        @apply 
+    }
+    .btn-primary {
+        @apply 
+    }
+    .btn-secondary {
+        @apply 
+    }
+
+}
+>>>>>>> 4cb2cf43c7cfcaa87dec986ca8ce1bce5ab3bb23
