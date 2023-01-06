@@ -20,16 +20,3 @@
     }
 }
 
-@layer components {
-
-    .badge-primary {
-        @apply 
-    }
-    .btn-primary {
-        @apply 
-    }
-    .btn-secondary {
-        @apply 
-    }
-
-}
