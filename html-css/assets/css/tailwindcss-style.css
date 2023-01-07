@@ -749,6 +749,10 @@ video {
        column-gap: 0.75rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -1118,17 +1122,13 @@ video {
     justify-content: flex-start;
   }
 
-  .lg\:gap-20 {
-    gap: 5rem;
-  }
-
   .lg\:text-right {
     text-align: right;
   }
 
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-xl {
@@ -1141,8 +1141,13 @@ video {
     line-height: 1.75rem;
   }
 
+<<<<<<< HEAD
+  .lg\:leading-\[4rem\] {
+    line-height: 4rem;
+=======
   .lg\:leading-\[5rem\] {
     line-height: 5rem;
+>>>>>>> 4cb2cf43c7cfcaa87dec986ca8ce1bce5ab3bb23
   }
 
   .lg\:before\:inline-block::before {
@@ -1157,6 +1162,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:gap-20 {
+    gap: 5rem;
+  }
+
   .xl\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -1178,7 +1187,13 @@ video {
     padding-right: 120px;
   }
 
-  .\32xl\:text-right {
-    text-align: right;
+  .\32xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .\32xl\:leading-\[5rem\] {
+    line-height: 5rem;
   }
 }
+
